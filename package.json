@@ -1,15 +1,30 @@
 {
-  "name": "paychecks",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chromeless": "^1.5.2",
-    "dotenv": "^6.0.0"
-  }
+    "name": "getpayrex",
+    "version": "1.0.0",
+    "description": "Download PDF paychecks from Paycheck Records (paycheckrecords.com)",
+    "keywords": [
+        "intuit",
+        "paycheck",
+        "paycheck records",
+        "paycheckrecords.com"
+    ],
+    "homepage": "https://github.com/ptrkcsk/getpayrex#readme",
+    "bugs": "https://github.com/ptrkcsk/getpayrex/issues",
+    "license": "MIT",
+    "author": "Patrik Csak <patrik@csak.email>",
+    "bin": "./cli.js",
+    "repository": "ptrkcsk/getpayrex",
+    "dependencies": {
+        "chalk": "^2.4.1",
+        "commander": "^2.17.1",
+        "inquirer": "^6.1.0",
+        "moment": "^2.22.2",
+        "ora": "^3.0.0",
+        "progress": "^2.0.0",
+        "puppeteer": "^1.6.2",
+        "shelljs": "^0.8.2"
+    },
+    "engines": {
+        "node": ">= 8.2.1"
+    }
 }
